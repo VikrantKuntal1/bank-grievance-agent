@@ -46,6 +46,10 @@ Voice paths need `ffmpeg` installed and a public tunnel (for example `ngrok http
 - `RMS_THRESHOLD` in `backend/exotel_handler.py` decides what counts as speech on the phone line. It is set to 50; raise it if line noise triggers false turns.
 - `qwen/qwen3.8-27b` on Groq does not support `json_object` mode, so JSON is requested through the prompt instead.
 
+## More
+
+Design notes and trade-offs: [docs/case-study.md](docs/case-study.md)
+
 ## Status
 
 Prototype. The knowledge base is a few hand-written policy summaries, not an official RBI corpus. Check the ombudsman timelines in `src/knowledge/knowledge_base.py` against the current RBI scheme before relying on them.
