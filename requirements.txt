@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+python-dotenv
+langgraph
+groq
+elevenlabs
+sentence-transformers
+numpy
